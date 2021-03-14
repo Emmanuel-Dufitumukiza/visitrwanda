@@ -1,0 +1,979 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.tourism-body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url("/images/Why-are-gorillas-poached.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    animation: 20s slide_show infinite;
+    background-position: right;
+    position: relative;
+}
+
+@keyframes slide_show{
+30%{
+background-image: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.589)), url("/images/background.jpg");
+}
+40%{
+background-image: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.589)), url("/images/gishwati-forest-reserve-rwanda.jpg");
+}
+50%{
+background-image: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.589)), url("/images/VNP-600x321.jpg");
+}
+60%{
+background-image: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.589)), url("/images/ff9392e547793415e52c91681114d7b0.jpg");
+}
+70%{
+background-image: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.589)), url("/images/cofee-tea-rwanda.webp");
+}
+80%{
+background-image: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.589)), url("/images/nyungwe2.jpg");
+}
+90%{
+background-image: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.589)), url("/images/Akagerass-750x400.jpg");
+}
+100%{
+background-image: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.589)), url("/images/Visit-Rwanda_-Lake-Kivu-Drone-of-Islands-1920x1439-1.jpg");
+}
+}
+
+.nav-bar1{
+  background-color: #020253c7;
+  width: 100%;
+  height: 30px;
+  position: relative;
+  top: 0px;
+}
+
+.follow-us-icons{
+  float: right;
+  position: relative;
+  right: 65px;
+  display: inline-flex;
+}
+.follow-us-icons>a>i{
+  padding: 10px 15px 0px 10px;
+}
+.follow-us-icons>a{
+ color: #fff;
+ margin: auto;
+ border-left: 1px solid gray;
+}
+.follow-us-icons>a:last-child{
+  border-right: 1px solid gray;
+}
+.follow-us-icons>p{
+  color: white;
+  cursor: pointer;
+  margin:5px 20px;
+}
+
+.nav-bar2{
+    width: 100%;
+    background-color: #fff;
+    display: inline-flex;
+    height: 80px;
+    position: sticky;
+    top: 0px;
+    box-shadow:0px 0px 2px 3px rgba(107, 105, 105, 0.205);
+    z-index: 1;
+}
+
+.links-resp{
+background-color: rgba(3, 3, 98, 0.918);
+padding: 10px;
+width: 100%;
+display: none;
+position: absolute;
+animation-name: side-bar;
+animation-duration: 0.4s;
+}
+
+@keyframes side-bar{
+from{
+left: -80em;
+}
+to{
+left: 0em;
+}
+}
+
+.links-resp>a{
+display: block;
+margin: 30px;
+padding: 0px 0px 10px 0px;
+text-decoration: none;
+text-align: center;
+color: white;
+user-select: none;
+border-bottom: 1px solid lavender;
+}
+.links-resp>a:last-child{
+border-bottom: none;
+}
+
+#menu-bar{
+    display: none;
+    cursor: pointer;
+}
+
+.logo-container{
+  position: relative;
+  margin: 0px 0px 0px 50px;
+}
+.logo-container>a>img{
+  margin: -11px 0px 0px 0px;
+}
+
+.logo-container2>a>img{
+  margin: 27px 0px 0px 80px;
+}
+
+.links{
+  width: 80%;
+  margin: auto;
+}
+.links>a,.links>label{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.822);
+  font-weight: 600;
+  float: right;
+  margin: 15px;
+}
+.links>a:hover,.links>.active{
+ border-bottom: 2px solid darkblue;
+ color: darkblue;
+ font-weight: bold;
+}
+
+#check{
+  display: none;
+}
+
+.main-gallery-cont{
+  width: 95%;
+  display: inline-flex;
+  margin: auto;
+}
+
+.invetsment-gallery>.first-gallery>.inv1{
+  background-image: url("/images/Visit-Rwanda-VW-Factory-Assembly-700x439.jpg") !important;
+}
+
+.invetsment-gallery>.first-gallery>.inv2{
+  background-image: url("/images/Visit-Rwanda-Agriculture--1920x1256.jpg") !important;
+}
+
+.invetsment-gallery>.first-gallery>.inv3{
+  background-image: url("/images/Visit-Rwanda-Carnegie-Mellon-Innovation-City-700x467.jpg") !important;
+}
+
+.visit-title>h1{
+font-weight: bold;
+text-align: center;
+}
+
+.visit-title{
+  cursor: pointer;
+  font-size: 20px;
+  margin: 180px auto;
+  color: rgba(255, 255, 255, 0.932);
+}
+
+.description>h2{
+  font-size: 26px !important;
+}
+
+.first-part{
+  background-color:#fff;
+  width: 100%;
+  margin-top: 17.5em;
+  padding: 30px 0px 0px 0px;
+}
+
+.map{
+  background-image: url("/images/Rafd1025a4538aa8796b20b7383aaad1a.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 50%;
+  background-color: blue;
+  height: 400px;
+  margin: auto;
+}
+
+.first-part>.description,.volcano-np,.akagera-np{
+ width: 100%;
+}
+
+.first-part>.description>p,.volcano-np>p,.akagera-np>p{
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.first-part>.description>h3,.invest-title,.first-part>.description>h2,.volcano-np>h2,.volcano-np>h3,.akagera-np>h3,.akagera-np>h2{
+ color: #050586c7;
+ text-align: center;
+ font-size: 23px;
+ margin: 30px;
+}
+
+.invest-title{
+  margin: 10px 10px -10px 10px;
+}
+
+.volcano-np>.gallery-container>.main-gallery-cont>.first-gallery,.king-place>.gallery-container>.main-gallery-cont>.first-gallery{
+width: 45%;
+}
+
+.volcano-np>.gallery-container>.main-gallery-cont>.first-gallery>.first-image-cont{
+background-image: url("/images/the-life-of-mountain-gorillas-.jpg");
+height: 400px !important;
+}
+
+.volcano-np>.gallery-container>.main-gallery-cont>.first-gallery>.second-image-cont{
+background-image: url("/images/Mount-Bisoke.jpg");
+height: 400px !important;
+}
+
+.akagera-np>.gallery-container>.main-gallery-cont>.first-gallery>.first-image-cont{
+animation: 20s akagera infinite;
+background-image: url("/images/The-Lions-of-Akagera-National-Park-Rwanda-1.jpg");
+}
+
+@keyframes akagera{
+ 40%{
+  background-image: url("/images/af.jpg");
+ }
+ 70%{
+  background-image: url("/images/3-Days-Akagera-National-Park.gif");
+ }
+}
+
+.akagera-np>.gallery-container>.main-gallery-cont>.first-gallery>.second-image-cont{
+background-image: url("/images/zebra.jpg");
+animation: 20s akagera2 infinite;
+}
+
+@keyframes akagera2{
+ 50%{
+  background-image: url("/images/images.jpg");
+ }
+ 80%{
+  background-image: url("/images/Akagera-National-Park-Wildlife.jpg");
+ }
+}
+
+.akagera-np>.gallery-container>.main-gallery-cont>.first-gallery>.third-image-cont{
+background-image: url("/images/Akagera-national-park-giraffes.jpg");
+animation: 20s akagera3 infinite;
+}
+
+@keyframes akagera3{
+70%{
+  background-image: url("/images/Akagera-river.webp")
+}
+}
+
+.king-place>.gallery-container>.main-gallery-cont>.first-gallery>.first-image-cont{
+background-image: url("/images/5.jpg") !important;
+height: 400px !important;
+}
+
+.king-place>.gallery-container>.main-gallery-cont>.first-gallery>.second-image-cont{
+background-image: url("/images/museum\ \(2\).jpg") !important;
+height: 400px !important;
+}
+
+.nyungwe-np>.gallery-container>.main-gallery-cont>.first-gallery>.first-image-cont{
+background-image: url("/images/nyungwe-national-park.jpg") !important;
+}
+
+.nyungwe-np>.gallery-container>.main-gallery-cont>.first-gallery>.third-image-cont{
+background-image: url("/images/unnamed.jpg") !important;
+}
+
+.nyungwe-np>.gallery-container>.main-gallery-cont>.first-gallery>.second-image-cont{
+background-image: url("/images/canopy-1650x1014.jpg") !important;
+}
+
+.first-image-cont,.second-image-cont,.third-image-cont{
+ width: 100%;
+ height: 250px;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.first-gallery{
+ width: 30%;
+ border: 1px solid lavender;
+ padding: 20px 10px 10px 10px;
+ border-radius: 5px;
+ margin: auto;
+}
+
+.first-gallery>h2{
+ text-align: center;
+}
+
+.first-gallery>p{
+  text-align: center;
+  line-height: 25px;
+  margin: 30px 20px 30px 20px;
+  font-size: 18px;
+}
+
+.gallery-container{
+width: 100%;
+background-color:rgb(255, 255, 250);
+display: inline-flex;
+margin: 60px 0px 40px 0px;
+}
+
+.logo-container2{
+  position: relative;
+  margin: 6em 100px 0px 0px;
+}
+
+footer{
+  background-color: #020253c7;
+  width: 100%;
+  height: 90px;
+  position: absolute;
+  bottom: 0px;
+}
+
+.main-footer{
+background-color:  #030355;
+width: 100%;
+height: 430px;
+display: inline-flex;
+padding: 19px 0px 0px 0px;
+}
+
+.separator{
+  width: 80%;
+  border-bottom: 2px dashed white;
+  margin: auto;
+}
+
+.quick-links{
+  width: 25%;
+  height: 300px;
+  position: relative;
+  top: 1.2em;
+}
+
+.quick-links>a{
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  width: 80%;
+  margin: 14px;
+}
+
+#back-to-top-btn {
+color : black;
+border-radius : 50%;
+text-decoration : none;
+outline : none;
+border : none;
+font-size : 20px;
+width : 50px;
+height : 50px;
+padding : 12px;
+text-align : center;
+float: right;
+right: 100px;
+top: 5px;
+position: relative;
+background-color : whitesmoke;
+}
+
+form{
+width: 34%;
+float: right;
+padding: 20px;
+position: relative;
+right: 0px;
+height: 300px;
+}
+
+form>h2,.quick-links>h2,.followus-cont>h2{
+color: white;
+font-size: 20px;
+margin: 0px 0px 20px 0px;
+}
+.followus-cont>h2{
+   position: relative;
+   top: 1em;
+   margin: 0px 0px 45px 0px;
+}
+
+.followus-cont>a{
+background-color: rgba(6, 89, 173, 0.274);
+border-radius: 50%;
+width: 40px;
+height: 40px;
+text-align: center;
+display: block;
+margin: 0px 0px 10px 0px;
+}
+
+.followus-cont{
+width: 13%;
+}
+
+.followus-cont>a>i{
+color: #fff;
+margin: 10px 5px 10px 5px;
+}
+
+.input-cont>label{
+display: block;
+color: #fff;
+font-size: 15px;
+margin: 10px 0px 0px 0px;
+}
+
+.input-cont>input[type=email], textarea{
+border: none;
+width: 100%;
+outline-color: dodgerblue;
+font-size: 15px;
+padding: 8px 10px;
+border-radius: 5px;
+margin: 10px 0px 10px 0px;
+resize: none;
+}
+input[type=submit]{
+ color: white;
+ background-color: rgb(7, 53, 190);
+ padding: 11px 40px;
+ cursor: pointer;
+ font-size: 16px;
+ border: none;
+ outline-color: dodgerblue;
+ font-size: 15px;
+}
+
+.footer-text{
+text-align: center;
+color: #fff;
+position: relative;
+top: 35px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 755px){
+#back-to-top-btn {
+top: -2em;
+right: 0px;
+}
+    .main-footer{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+   .logo-container2{
+     display: none;
+   }
+   form{
+     width: 40%;
+     top: -3.2em;
+     padding: 20px 10px 20px 10px;
+   }
+
+   #check:checked~.links-resp{
+   display: block;
+  }
+  #check:checked~.first-part{
+   display: none;
+   }
+   
+   .followus-cont{
+     width: 20%;
+     position: relative;
+     top: -4.2em;
+   }
+   .quick-links{
+     width: 30%;
+     top: -2em;
+   }
+   .quick-links>a:last-child{
+     display: none;
+   }
+  .l{
+      display: none;
+  }
+  #menu-bar{
+      display: initial;
+      font-size: 30px;
+  }
+  .main-gallery-cont{
+      display: block;
+  }
+  .first-gallery{
+      width: 90%;
+      margin: 30px auto 30px auto;
+  }
+  .volcano-np>.gallery-container>.main-gallery-cont>.first-gallery,.king-place>.gallery-container>.main-gallery-cont>.first-gallery{
+      width: 90%;
+  }
+  .home-gallery-container{
+    display: block;
+  }
+  .first-image-cont,.second-image-cont,.third-image-cont{
+      height: 400px;
+      background-position: center;
+  }
+  .first-part>.description>p,.volcano-np>p,.akagera-np>p{
+     width: 80%;
+  }
+  .map{
+    width: 70%;
+  }
+  @media screen and (max-width: 430px) {
+     .followus-cont{
+       display: none;
+     }
+     .quick-links{
+       width: 45%;
+     }
+     #back-to-top-btn{
+       top: -3em;
+     }
+     form{
+       width: 45%;
+     }
+  }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 756px){
+.quick-links>a:last-child{
+     display: none;
+}
+.first-image-cont,.second-image-cont,.third-image-cont{
+      background-position: center;
+}
+.first-part>.description>p,.volcano-np>p,.akagera-np>p{
+     width: 70%;
+}
+}
+
+@media screen and (max-width: 1100px) and (min-width: 1001px){
+.first-part>.description>p,.volcano-np>p,.akagera-np>p{
+     width: 60%;
+}
+}
+
+@media screen and (max-width: 400px){
+.first-image-cont,.second-image-cont,.third-image-cont{
+      background-position: right;
+}
+}
+
+
+/* Home.css */
+
+.home-body{
+  font-family: 'Roboto', sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: 20s home_show infinite;
+  background-position: right;
+  position: relative;
+}
+
+@keyframes home_show{
+0%{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.589)), url("/images/Lake-Kivu-750x458.jpg");
+}
+30%{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.589)), url("/images/Volcanoes_National_Park_Banner_Image.gif");
+}
+40%{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.589)), url("/images/Best-time-to-see-gorillas-in-Rwanda.jpg");
+}
+50%{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.589)), url("/images/2d65a15a3333bf0d22c27fa7c0ec48f9.jpg");
+}
+60%{
+background-image: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.589)), url("/images/Kigali-convention-centre.jpg");
+}
+70%{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.589)), url("/images/arena.jpg");
+}
+80%{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.589)), url("/images/nyungwe2.jpg");
+}
+90%{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.589)), url("/images/rwanda-luxury-hotels.jpg");
+}
+100%{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.589)), url("/images/Rwanda-air.jpg");
+}
+}
+
+#tourism-part{
+    width: 60%;
+    margin: auto;
+}
+
+#tourism-part>h2, #tourism-part>h3{
+    margin: 20px auto;
+    user-select: none;
+    cursor: pointer;
+    color: #5331c2;
+    width: 26%;
+    padding: 0px 0px 20px 0px;
+    border-bottom: 1px solid rgb(192, 187, 187);
+}
+
+#tourism-part>h3{
+   margin: 20px auto 30px auto;
+   width: 34%;
+   color: #3d1fa0;
+}
+
+#tourism-part>p{
+    text-align: center;
+    line-height: 25px;
+    margin: 40px;
+    font-size: 18px;
+}
+
+.home-first-image-cont,.home-second-image-cont,.home-third-image-cont,.inv1,.inv2,.inv3{
+   width: 100%;
+   height: 250px;
+   background-image: url("/images/mountain-gorilla-feeding.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.home-second-image-cont{
+background-image: url("/images/rwanda-hiking.jpg") !important;
+}
+
+.home-third-image-cont{
+background-image: url("/images/king\'s\ house.jpg") !important;
+}
+
+#investment-part{
+  width: 100%;
+  background-color: rgba(241, 240, 240, 0.274);
+  margin: 40px auto;
+}
+
+.invet-text,.meet-text{
+  width: 60%;
+  margin: auto;
+}
+
+.invet-text>h2,.meet-text>h2{
+    margin: 20px auto;
+    user-select: none;
+    cursor: pointer;
+    text-align: center;
+    color: #5331c2;
+    width: 25%;
+    padding: 30px 0px 20px 0px;
+    border-bottom: 1px solid rgb(192, 187, 187);
+}
+
+.invet-text>p,.meet-text>p{
+    text-align: center;
+    line-height: 25px;
+    margin: 40px;
+    font-size: 18px;
+}
+
+#investment-part>.invest-kinds>p{
+    line-height: 25px;
+    margin: 70px 10px;
+    font-size: 18px;
+    width: 40%;
+
+}
+
+.meet-kinds>p{
+    line-height: 25px;
+    margin: 50px 80px;
+    font-size: 18px;
+    width: 40%;
+}
+
+.investment-image,.meet-image{
+   width: 40%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin: 50px 5em;
+  }
+
+  .investment-image{
+  background-image: url("/images/5cc6c50153fa1245945dd659_Kigali\ SEZ\ sky\ thumbnail.png");
+}
+
+.meet-image{
+  animation: 20s meetImage infinite;
+  background-image: url("/images/Kigali.jpg");
+}
+
+@keyframes meetImage{
+  30%{
+    background-image: url("/images/Kigali-Conventional-Centre.jpg");
+  }
+  100%{
+    background-image: url("/images/Kigali.jpg");
+
+  }
+}
+
+.invest-kinds,.meet-kinds{
+  display: inline-flex;
+}
+
+.meet-part{
+   width: 100%;
+   margin: 40px auto;
+}
+
+.meet-text>h3{
+   margin: 10px auto -10px auto;
+   float: left;
+   color: #3d1fa0 !important;
+   display: inline;
+   cursor: pointer;
+   margin-left: -3em;
+   padding: 0px 0px 10px 0px;
+   border-bottom: 1px solid gray;
+}
+.meet-text>h3:last-child{
+  margin: 10px auto -10px auto !important;
+  float: right !important;
+  margin-left: 0em;
+}
+.hh{
+display: none;
+}
+
+@media screen and (max-width: 600px){
+  .home-body,.meet-image{
+    background-position: center;
+  }
+  .first-part>#tourism-part{
+    width: 100%;
+  }
+  .first-part>#tourism-part>h2{
+      width: 55%;
+      text-align: center;
+  }
+  .first-part>#tourism-part>h3{
+      width: 55%;
+  }
+
+  .invet-text,.meet-text{
+    width: 100%;
+  }
+  .invet-text>h2,.meet-text>h2{
+    width: 55%;
+  }
+
+  .invest-kinds,.meet-kinds{
+    display: block;
+  }
+  .meet-text>.h{
+    display: none;
+  }
+  .hh{
+    display: block;
+    margin: 0px 0px 40px 0px;
+    text-align: center;
+    color: #3d1fa0;
+  }
+  .investment-image,.meet-image{
+    width: 80%;
+    height: 400px;
+    margin: auto auto 50px auto;
+  }
+  #investment-part>.invest-kinds>p{
+    width: 80%;
+    margin: 40px auto;
+  }
+  .b{
+    display: none;
+  }
+  #investment-part{
+  margin: 40px auto auto auto;
+  }
+  .meet-part{
+   margin: -10px auto auto auto;
+  }
+  .br{
+    display: initial;
+  }
+  .meet-kinds>p{
+    width: 80%;
+    margin: auto;
+  }
+}
+
+/* End of home.css */
+
+
+/* Invest css */
+
+.invest-body{
+  font-family: 'Roboto', sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: 20s invest_show infinite;
+  background-position: right;
+  position: relative;
+}
+
+@keyframes invest_show{
+  0%{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.589)), url("/images/00511793_630cbd4f6df1c4603d93cf5427e9efff_arc614x376_w614_us1.jpg");
+  }
+  50%{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.589)), url("/images/R0a6785c066f603630c80d750eff0950f.jpg");
+  }
+  100%{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.589)), url("/images/27006621371_792cfd870e_k-1000x600.jpg");
+  }
+  }
+
+  .invest-image2{
+    background-image: url("/images/15171806511.jpg");
+    cursor: pointer;
+    transition: 0.1s;
+  }
+  
+  .invest-image2:hover{
+    background-image: url("/images/1386713140Special.jpg");
+  }
+
+/* End of Invest css */
+
+
+/* meet css */
+
+.meet-body{
+  font-family: 'Roboto', sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  animation: 20s meet_show infinite;
+  background-position: top;
+  position: relative;
+}
+
+@keyframes meet_show{
+  0%{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.589)), url("/images/Visit-Rwanda-KCC-Auditorium-1920x922.jpg");
+  }
+  50%{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.589)), url("/images/Visit-Rwanda_-Kigali-Convention-Centre-1920x1280.jpg");
+  }
+  100%{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.589)), url("/images/16256-116537-f65666329_3xl.webp");
+  }
+  }
+
+  .kcc{
+    width: 100%;
+  }
+
+  .kcc>.kcc-desc{
+    width: 100%;
+    display: inline-flex;
+  }
+
+  .kcc>h2{
+    color: #080874;
+    text-align: center;
+  }
+ 
+  .meet-image2{
+   background-image: url("/images/Visit-Rwanda_-Kigali-Convention-Centre-1920x1280.jpg");
+   width: 45%;
+   height: 500px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin: 60px;
+   background-position: top;
+   border-radius: 4px;
+   cursor: pointer;
+   transition: 0.1s;
+  }
+
+  .meet-image2:hover{
+    background-image: url("/images/Visit-Rwanda-KCC-Auditorium-1920x922.jpg");
+  }
+
+  .kcc>.kcc-desc>p{
+    width: 45%;
+    line-height: 25px;
+    margin: 130px 60px 30px 20px;
+    font-size: 18px;
+  }
+  .know-more{
+    text-decoration: none;
+    display: block;
+    padding: 12px 40px;
+    margin: 50px 0px 0px 0px;
+    background-color: rgba(3, 3, 98, 0.918);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    outline-color:dodgerblue;
+    border-radius: 4px;
+  }
+
+  @media screen and (max-width: 755px){
+    .kcc>.kcc-desc{
+      display: block;
+    }
+    .kcc>.kcc-desc>.meet-image2{
+      width: 80%;
+      margin: 20px auto 30px auto;
+      height: 350px;
+    }
+    .kcc>.kcc-desc>p{
+      width: 75%;
+      margin: auto;
+      text-align: center;
+    }
+    .kcc>.kcc-desc>p>button{
+      margin: 20px auto 30px auto;
+    }
+  }
+
+  @media screen and (min-width: 601px) and (max-width: 1125px){
+    .meet-text>.Tourism-In-Rwanda, .invet-text>.Tourism-In-Rwanda{
+      width: 80%;
+    }
+    .meet-text>p{
+      width: 100%;
+      margin: 30px auto;
+    }
+  }
+
+/* end of meet css */
