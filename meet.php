@@ -23,24 +23,24 @@
 
     <div class="nav-bar2">
         <div class="logo-container">
-            <a href="home.html"><img src="/images/Visit-Rwanda-logo.png" height=100 alt=""></a>
+            <a href="home.php"><img src="/images/Visit-Rwanda-logo.png" height=100 alt=""></a>
         </div>
         
         <div class="links">
             <label for="check" id="menu-bar"><i class="fa fa-bars"></i></label>
             <a href="#main-footer" class="l">Contact Us</a>
-            <a href="meet.html" class="l active">Meet in Rwanda</a>
-            <a href="investment.html" class="l">Investment</a>
-            <a href="tourisms.html" class="l">Tourism</a>
-            <a href="home.html" class="l"> <i class="fa fa-home"></i> Home</a>
+            <a href="meet.php" class="l active">Meet in Rwanda</a>
+            <a href="investment.php" class="l">Investment</a>
+            <a href="tourisms.php" class="l">Tourism</a>
+            <a href="home.php" class="l"> <i class="fa fa-home"></i> Home</a>
          </div>
         </div>
 
         <div class="links-resp" id="links-resp">
-            <a href="home.html"> <i class="fa fa-home"></i> Home</a>
-            <a href="investment.html">Meet in Rwanda</a>
-            <a href="investment.html">Investment</a>
-            <a href="tourisms.html" >Tourism</a>
+            <a href="home.php"> <i class="fa fa-home"></i> Home</a>
+            <a href="investment.php">Meet in Rwanda</a>
+            <a href="investment.php">Investment</a>
+            <a href="tourisms.php" >Tourism</a>
             <a href="#main-footer">Contact Us</a>
         </div>
 
@@ -89,18 +89,18 @@
                 <div class="main-footer" id="main-footer">
 
                     <div class="logo-container logo-container2">
-                       <a href="home.html"><img src="/images/white-logo.png" height=50 alt=""></a>
+                       <a href="home.php"><img src="/images/white-logo.png" height=50 alt=""></a>
                    </div>
 
                <div class="quick-links">
                    <h2>Quick Links</h2>
-                   <a href="home.html">&raquo; Home</a>
-                   <a href="tourisms.html">&raquo; Tourism</a>
+                   <a href="home.php">&raquo; Home</a>
+                   <a href="tourisms.php">&raquo; Tourism</a>
                    <a href="#main-footer">&raquo; Contact us</a>
-                   <a href="investment.html">&raquo; Investment</a>
-                   <a href="meet.html">&raquo; Meet in Rwanda</a>
-                   <a href="tourisms.html">&raquo; Kwita Izina</a>
-                   <a href="investment.html" class="ll">&raquo; Investment Opportunities</a>
+                   <a href="investment.php">&raquo; Investment</a>
+                   <a href="meet.php">&raquo; Meet in Rwanda</a>
+                   <a href="tourisms.php">&raquo; Kwita Izina</a>
+                   <a href="investment.php" class="ll">&raquo; Investment Opportunities</a>
                </div>
 
                <div class="followus-cont">
