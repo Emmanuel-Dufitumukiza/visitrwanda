@@ -1019,7 +1019,7 @@ display: none;
        text-align: center;
      }
      .logo3{
-      text-align: center;
+      margin: auto 50% auto 50%;
 }
 
 /* end msg css */
