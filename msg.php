@@ -26,10 +26,10 @@ $message = $_POST['message'];
   </p>
 
   <div class="footer3">
-    <a href="index.php">Home</a>
-    <a href="tourisms.php">Tourisms</a>
-    <a href="investment.php">Investment</a>
-    <a href="meet.php">Meet In Rwanda</a>
+    <a href="index.php"> &raquo; Home</a>
+    <a href="tourisms.php">&raquo; Tourisms</a>
+    <a href="investment.php">&raquo; Investment</a>
+    <a href="meet.php">&raquo; Meet In Rwanda</a>
   </div>
 
 </body>
