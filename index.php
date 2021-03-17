@@ -208,15 +208,15 @@
                     <a href="https://youtu.be/CGeuRDA98ag"><i class="fa fa-youtube"></i></a>
                 </div>
 
-                <form action="/contact">
+                <form action="msg.php" method="POST">
                     <h2>Contact Us</h2>
                     <div class="input-cont">
                     <label for="email">Email</label>
-                    <input type="email" id="email" required>
+                    <input type="email" name="email" id="email" required>
                     </div>
                     <div class="input-cont">
                         <label for="msg">Message</label>
-                    <textarea name="msg" id="msg" rows="2" required></textarea>
+                    <textarea name="message" id="msg" rows="2" required></textarea>
                     </div>
                     <input type="submit" value="Send">
                 </form>
