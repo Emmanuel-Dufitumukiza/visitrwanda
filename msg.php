@@ -18,10 +18,6 @@ $message = $_POST['message'];
 
   ?>
   
-       <div class="logo-container logo-container2 log3">
-                        <a href="index.php"><img src="/images/white-logo.png" height=50 alt=""></a>
-                    </div>
-  
   <h1 class="thx">Thank You For Your Message</p></h1>
 
   <p class="text">
