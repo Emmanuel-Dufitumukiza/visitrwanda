@@ -22,7 +22,7 @@ $message = $_POST['message'];
 
   <p class="text">
     Your message has been recieved sucessfully. We will
-    notify you when we will deploy new applications via your email: <p class="email"><?php $email; ?></p>
+    notify you when we will deploy new applications via your email: <p class="email"><?php echo $email; ?></p>
   </p>
 
   <div class="footer3">
