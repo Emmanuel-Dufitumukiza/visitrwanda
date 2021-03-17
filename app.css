@@ -1015,7 +1015,8 @@ display: none;
        text-decoration: none;
        display: block;
        width: 50%;
-       margin: 15px;
+       margin: 15px auto;
+       text-align: center;
      }
 
 /* end msg css */
