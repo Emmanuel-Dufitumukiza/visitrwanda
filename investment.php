@@ -23,7 +23,7 @@
 
     <div class="nav-bar2">
         <div class="logo-container">
-            <a href="home.php"><img src="/images/Visit-Rwanda-logo.png" height=100 alt=""></a>
+            <a href="index.php"><img src="/images/Visit-Rwanda-logo.png" height=100 alt=""></a>
         </div>
         
         <div class="links">
@@ -32,12 +32,12 @@
             <a href="meet.php" class="l">Meet in Rwanda</a>
             <a href="investment.php" class="l active">Investment</a>
             <a href="tourisms.php" class="l">Tourism</a>
-            <a href="home.php" class="l"> <i class="fa fa-home"></i> Home</a>
+            <a href="index.php" class="l"> <i class="fa fa-home"></i> Home</a>
          </div>
         </div>
 
         <div class="links-resp" id="links-resp">
-            <a href="home.php"> <i class="fa fa-home"></i> Home</a>
+            <a href="index.php"> <i class="fa fa-home"></i> Home</a>
             <a href="meet.php" >Meet in Rwanda</a>
             <a href="investment.php">Investment</a>
             <a href="tourisms.php" >Tourism</a>
@@ -128,12 +128,12 @@
                 <div class="main-footer" id="main-footer">
 
                      <div class="logo-container logo-container2">
-                        <a href="home.php"><img src="/images/white-logo.png" height=50 alt=""></a>
+                        <a href="index.php"><img src="/images/white-logo.png" height=50 alt=""></a>
                     </div>
 
                 <div class="quick-links">
                     <h2>Quick Links</h2>
-                    <a href="home.php">&raquo; Home</a>
+                    <a href="index.php">&raquo; Home</a>
                     <a href="tourisms.php">&raquo; Tourism</a>
                     <a href="#main-footer">&raquo; Contact us</a>
                     <a href="investment.php">&raquo; Investment</a>
